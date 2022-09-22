@@ -28,6 +28,7 @@ import Home from './Screens/Home';
 import ColorPalette from './Screens/ColorPalette';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import Hooks from './Screens/Hooks';
 const Stack = createNativeStackNavigator()
 const App = () => {
 
@@ -38,6 +39,7 @@ const App = () => {
         <Stack.Screen name='ColorPalette' component={ColorPalette}
         />
       </Stack.Navigator>
+      <Hooks/>
     </NavigationContainer>
   )
 }
