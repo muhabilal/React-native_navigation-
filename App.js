@@ -39,7 +39,7 @@ const App = () => {
         <Stack.Screen name='ColorPalette' component={ColorPalette}
         />
       </Stack.Navigator>
-      <Hooks/>
+      {/* <Hooks/> */}
     </NavigationContainer>
   )
 }
