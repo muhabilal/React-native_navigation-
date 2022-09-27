@@ -36,11 +36,14 @@ const MainStack = createNativeStackNavigator()
 const MainStackScreen = () => {
   return (
     <MainStack.Navigator>
-      <MainStack.Screen name="Home" component={Home} />
+      <MainStack.Screen 
+      
+      
+      name="Home" component={Home} />
       <MainStack.Screen
         name="ColorPalette"
         component={ColorPalette}
-        options={({ route }) => ({ title: route.params.paletteName })}
+        options={({ route }) => ({ title: route.params.paletteName})}
       />
     </MainStack.Navigator>
   );
